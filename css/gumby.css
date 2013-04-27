@@ -1832,5 +1832,6 @@ body footer p { margin: 10px 0px; color: #174a82; }
 body footer a { border-bottom: 1px dotted #174a82; color: #174a82; }
 body .category-list li { display: inline; }
 body .question { text-align: left; }
-body .question h1, body .question h2 { font-size: 24px; font-weight: bold; }
+body .question h1 { font-size: 28px; font-weight: bold; }
+body .question h2 { font-size: 24px; }
 body .question ul li { display: inline; }
