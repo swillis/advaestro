@@ -1,11 +1,11 @@
 body {
-  text-align: center;
 
   h1, h2, h3, h4, h5, p, a  {
     font-family: adelle;
   }  
 
   header {
+    text-align: center;
     position: relative;
     background: #6097d0;
     border-bottom: 10px solid #174a82;
@@ -35,7 +35,7 @@ body {
 
       .btn:hover {
         background: lighten(#174a82, 10%);
-        border: 1px solid lighten(#174a82, 10%);
+        border: 2px solid lighten(#174a82, 10%);
       }
 
       a {
@@ -45,9 +45,9 @@ body {
   }
 
   #about {
+    text-align: center;
 
     h2 {
-      // font-family: adelle;
       margin-top: 25px;
       margin-bottom: 15px;
     }
@@ -80,6 +80,7 @@ body {
   }
 
   footer {
+    text-align: center;
     background: #99B1C9;
 
     p {
@@ -90,6 +91,28 @@ body {
     a {
       border-bottom: 1px dotted #174a82;
       color: #174a82;
+    }
+  }
+
+  .category-list {
+
+    li {
+      display: inline;
+    }
+  }
+
+  .question {
+    text-align: left;
+
+    h1, h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    ul {
+      li {
+        display: inline;
+      }
     }
   }
 }

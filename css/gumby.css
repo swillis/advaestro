@@ -1811,22 +1811,26 @@ body .video { width: 100%; position: relative; height: 0; padding-bottom: 56.25%
 
 .video > video, .video > iframe, .video > object, .video > embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-body { text-align: center; }
 body h1, body h2, body h3, body h4, body h5, body p, body a { font-family: adelle; }
-body header { position: relative; background: #6097d0; border-bottom: 10px solid #174a82; }
+body header { text-align: center; position: relative; background: #6097d0; border-bottom: 10px solid #174a82; }
 body header #navigation { margin-bottom: 50px; }
 body header #navigation li { display: inline; margin: 0px 10px; }
 body header #navigation a { color: white; }
 body header #search { margin-top: 50px; margin-bottom: 50px; }
 body header #search .btn { background: #174a82; border: 2px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
-body header #search .btn:hover { background: #1f63ad; border: 1px solid #1f63ad; }
+body header #search .btn:hover { background: #1f63ad; border: 2px solid #1f63ad; }
 body header #search a { color: white; }
+body #about { text-align: center; }
 body #about h2 { margin-top: 25px; margin-bottom: 15px; }
 body #about img { margin-bottom: 25px; }
 body #about p { font-family: adelle; color: #174a82; }
 body #about a { color: white; }
 body #about .btn { background: #174a82; border: 1px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; margin-top: 25px; margin-bottom: 25px; }
 body #about .btn:hover { background: #1f63ad; border: 1px solid #1f63ad; }
-body footer { background: #99B1C9; }
+body footer { text-align: center; background: #99B1C9; }
 body footer p { margin: 10px 0px; color: #174a82; }
 body footer a { border-bottom: 1px dotted #174a82; color: #174a82; }
+body .category-list li { display: inline; }
+body .question { text-align: left; }
+body .question h1, body .question h2 { font-size: 24px; font-weight: bold; }
+body .question ul li { display: inline; }
