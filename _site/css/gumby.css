@@ -1818,7 +1818,7 @@ body header #navigation { margin-bottom: 50px; }
 body header #navigation li { display: inline; margin: 0px 10px; }
 body header #navigation a { color: white; }
 body header #search { margin-top: 50px; margin-bottom: 50px; }
-body header #search .btn { background: #174a82; border: 2px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
+body header #search .btn { background: #174a82; border: 1px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
 body header #search .btn:hover { background: #1f63ad; border: 1px solid #1f63ad; }
 body header #search a { color: white; }
 body #about h2 { margin-top: 25px; margin-bottom: 15px; }
@@ -1827,6 +1827,3 @@ body #about p { font-family: adelle; color: #174a82; }
 body #about a { color: white; }
 body #about .btn { background: #174a82; border: 1px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; margin-top: 25px; margin-bottom: 25px; }
 body #about .btn:hover { background: #1f63ad; border: 1px solid #1f63ad; }
-body footer { background: #99B1C9; }
-body footer p { margin: 10px 0px; color: #174a82; }
-body footer a { border-bottom: 1px dotted #174a82; color: #174a82; }
