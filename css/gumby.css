@@ -1811,15 +1811,31 @@ body .video { width: 100%; position: relative; height: 0; padding-bottom: 56.25%
 
 .video > video, .video > iframe, .video > object, .video > embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.modalDialog { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.8); z-index: 99999; opacity: 0; -webkit-transition: opacity 400ms ease-in; -moz-transition: opacity 400ms ease-in; transition: opacity 400ms ease-in; pointer-events: none; }
+
+.modalDialog:target { opacity: 1; pointer-events: auto; }
+
+.modalDialog > div { width: 600px; position: relative; margin: 10% auto; padding: 5px 20px 13px 20px; border-radius: 10px; background: #fff; }
+
+.close { background: #606061; color: #FFFFFF; line-height: 25px; position: absolute; right: -12px; text-align: center; top: -10px; width: 24px; text-decoration: none; font-weight: bold; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; -moz-box-shadow: 1px 1px 3px black; -webkit-box-shadow: 1px 1px 3px black; box-shadow: 1px 1px 3px black; }
+
+.close:hover { background: #00d9ff; }
+
 body h1, body h2, body h3, body h4, body h5, body p, body a { font-family: adelle; }
 body header { text-align: center; position: relative; background: #6097d0; border-bottom: 10px solid #174a82; }
 body header #navigation { margin-bottom: 50px; }
 body header #navigation li { display: inline; margin: 0px 10px; }
 body header #navigation a { color: white; }
+body header #navigation img { text-shadow: 0px 0px 1px #aaaaaa; }
 body header #search { margin-top: 50px; margin-bottom: 50px; }
 body header #search .btn { background: #174a82; border: 2px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
 body header #search .btn:hover { background: #1f63ad; border: 2px solid #1f63ad; }
 body header #search a { color: white; }
+body #nav1 { margin-bottom: 0; }
+body #search-nav { height: 50px; padding-top: 5px; }
+body #search-nav .search-field { text-align: center; }
+body #search-nav .ask-question { text-align: center; }
+body #search-nav.container { background: whitesmoke; }
 body #about { text-align: center; }
 body #about h2 { margin-top: 25px; margin-bottom: 15px; }
 body #about img { margin-bottom: 25px; }
@@ -1835,3 +1851,4 @@ body .question { text-align: left; }
 body .question h1 { font-size: 28px; font-weight: bold; }
 body .question h2 { font-size: 24px; }
 body .question ul li { display: inline; }
+body .results h1 { font-size: 24px; }
