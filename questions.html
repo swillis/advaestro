@@ -93,25 +93,46 @@
   <div id="openModal3" class="modalDialog">
     <div>
       <a href="#close" title="Close" class="close">X</a>
-      <h2>Sign up</h2>
+      <h2>Ask a question</h2>
       <ul>
         <li class="field">
-          <input class="wide text input" id="text1" type="text" placeholder="First name" />
+          <input class="xxwide text input" id="text1" type="text" placeholder="Question title (75 chars)" />
         </li>
         <li class="field">
-          <input class="wide password input" id="text2" type="password" placeholder="Last name" />
+          <textarea class="input textarea" placeholder="Question description" rows="4"></textarea>
         </li>
-        <li class="field">
-          <input class="wide password input" id="text2" type="password" placeholder="Email address" />
-        </li>
-        <li class="field">
-          <input class="wide password input" id="text2" type="password" placeholder="Password" />
-        </li>
-        <li class="field">
-          <input class="wide password input" id="text2" type="password" placeholder="Confirm password" />
+        <li><h4>Categories</h4></li>
+         <li class="field">
+          <label class="checkbox checked" for="check1">
+            <input name="checkbox[]" id="check1" value="1" type="checkbox" checked="checked">
+            <span></span> Accounting
+          </label>
+          <label class="checkbox" for="check2">
+            <input name="checkbox[]" id="check2" value="2" type="checkbox">
+            <span></span> Law
+          </label>
+          <label class="checkbox" for="check2">
+            <input name="checkbox[]" id="check2" value="2" type="checkbox">
+            <span></span> Tax
+          </label>
         </li>
         <li>
-          <div class="medium primary btn"><a href="dashboard.html">Submit</a></div>
+          <div class="medium primary rounded metro btn"><input type="submit" value="Submit" /></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="openModal4" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">X</a>
+      <h2>Answer this question</h2>
+      <ul>
+        <li class="field">
+          <textarea class="input textarea" placeholder="Textarea" rows="4"></textarea>
+        </li>
+        <li>
+          <div class="medium primary rounded metro btn"><input type="submit" value="Submit" /></div>
         </li>
       </ul>
     </div>
@@ -183,7 +204,7 @@
               <a href="">Share</a>
             </div>
             <div class='three columns'>
-              <div class="medium btn default metro rounded"><a href="#">Post answer</a></div>
+              <div class="medium btn primary metro rounded"><a href="#openModal4">Post answer</a></div>
             </div>
           </div>
         </div>
