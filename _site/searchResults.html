@@ -123,25 +123,12 @@
     </div>
   </div>
 
-  <div id="openModal4" class="modalDialog">
-    <div>
-      <a href="#close" title="Close" class="close">X</a>
-      <h2>Answer this question</h2>
-      <ul>
-        <li class="field">
-          <textarea class="input textarea" placeholder="Textarea" rows="4"></textarea>
-        </li>
-        <li>
-          <div class="medium primary rounded metro btn"><input type="submit" value="Submit" /></div>
-        </li>
-      </ul>
-    </div>
-  </div>
-
     <div class="navbar" id="nav1">
       <div class='row'>
-        <h2 class="six columns logo"><a href="index.html">Advaestro</a></h2>
-        <ul class="six columns">
+        <div class='six columns alpha'>
+          <a href="index.html"><img src="img/advaestro-nav-logo.png"></a>
+        </div>
+        <ul class="six columns omega">
           <li><a href="#openModal">Log in</a></li>
           <li><a href="#openModal2">Sign up</a></li>
         </ul>
@@ -150,30 +137,117 @@
 
     <div id='search-nav' class='container'>
       <div class='row'>
-        <div class='four columns pill tabs cat-toggle'>
+        <div class='four columns pill tabs cat-toggle alpha'>
+          <p>1. Select your category</p>
           <ul class="tab-nav">
-            <li class="active"><a href="#">Accounting</a></li>
+            <li class="active">
+              <a href="#">Accounting</a>
+            </li>
             <li><a href="#">Law</a></li>
             <li><a href="#">Tax</a></li>
           </ul>
         </div>
-        <div class='row'>
-          <div class='four columns search-field'>
-            <ul>
-              <li class="append field">
-                <input class="wide email input" type="email" placeholder="Search answers">
-                <div class="medium primary btn"><a href="#">Go</a></div>
-              </li>
-            </ul>
-          </div>
-          <div class='three columns push_one ask-question'>
-            <div class="medium metro rounded btn primary"><a href="#openModal3">Post question</a></div>
-          </div>
+        <div class='four columns search-field'>
+          <p>2. Ask your question</p>
+          <ul>
+            <li class="append field">
+              <input class="xwide email input" type="email" placeholder="Search answers">
+              <div class="medium primary btn go"><a href="#">Go</a></div>
+            </li>
+          </ul>
+        </div>
+        <div class='one columns or-ask-question'>
+          <p>Or</p>
+        </div>
+        <div class='three columns ask-question omega'>
+          <div class="medium metro rounded btn primary"><a href="#openModal3">Post question</a></div>
         </div>
       </div>
     </div>
 
-    <div class='container'>
+    <div class='container dashboard'>
+      <div class='row'>
+
+        <div class='main-content nine columns alpha'>
+
+          <div class='row'>
+            <div class='twelve columns dash-head environment'>
+              <h1>Your search results:</h1>
+            </div>
+          </div>
+         
+            <div class='results'>
+
+              <div class='searched-question environment'>
+                <div class='row'>
+                  <div class='nine columns'>
+                    <h1>Is this a question up to 75 characters long?</h1>
+                  </div>
+                  <div class='three columns'>
+                    <p><span>27th </span><span>April </span><span>2013</span></p>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='three columns'>
+                    <p><span>10</span> responses</p>
+                  </div>
+                  <div class='three columns'>
+                    <div class="medium btn primary metro rounded"><a href="#openModal4">Follow</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='searched-question environment'>
+                <div class='row'>
+                  <div class='nine columns'>
+                    <h1>Is this a question up to 75 characters long?</h1>
+                  </div>
+                  <div class='three columns'>
+                    <p><span>27th </span><span>April </span><span>2013</span></p>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='three columns'>
+                    <p><span>10</span> responses</p>
+                  </div>
+                  <div class='three columns'>
+                    <div class="medium btn primary metro rounded"><a href="#openModal4">Follow</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='searched-question environment'>
+                <div class='row'>
+                  <div class='nine columns'>
+                    <h1>Is this a question up to 75 characters long?</h1>
+                  </div>
+                  <div class='three columns'>
+                    <p><span>27th </span><span>April </span><span>2013</span></p>
+                  </div>
+                </div>
+                <div class='row'>
+                  <div class='three columns'>
+                    <p><span>10</span> responses</p>
+                  </div>
+                  <div class='three columns'>
+                    <div class="medium btn primary metro rounded"><a href="#openModal4">Follow</a></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+
+        <div class='three columns omega environment dash-head'>
+          <h1>Sidebar</h1>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    <!-- <div class='container'>
       <div class='row'>
 
         <div class='main-content nine columns alpha'>
@@ -285,12 +359,12 @@
 
         </div>
 
-        <div class='three columns omega'>
+        <div class='three columns omega environment dash-head'>
           <h1>Sidebar</h1>
         </div>
 
       </div>
-    </div>
+    </div> -->
 
     <footer class='container'>
       <div class='row'>

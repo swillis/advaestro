@@ -86,10 +86,19 @@ body {
       
       a {
         color: white;
+        font-weight: bold;
+        padding: 2px;
+        @include border-radius(3px);
+
+        @include transition (0.1s ease-in-out);
+      }
+
+      a:hover {
+        background: white;
+        color: #6097d0;
       }
 
       img {
-        @include text-shadow {}
       }
     }
 
@@ -106,6 +115,10 @@ body {
       .btn:hover {
         background: lighten(#174a82, 10%);
         border: 2px solid lighten(#174a82, 10%);
+      }
+
+      h3 {
+        color: white;
       }
 
       a {
@@ -290,4 +303,14 @@ body {
     color: red;
     font-size: 40px;
   }
+
+  ul.sidebar-ads {
+    text-align: center;
+
+    img {
+      border: 5px solid #f7f7f7;
+      @include border-radius (5px);
+    }
+  }
+
 }

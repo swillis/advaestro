@@ -129,10 +129,16 @@
       <h2>Answer this question</h2>
       <ul>
         <li class="field">
-          <textarea class="input textarea" placeholder="Textarea" rows="4"></textarea>
+          <textarea class="input textarea" placeholder="Please be as succinct and informative as possible in helping our members to see the light!" rows="4"></textarea>
         </li>
         <li>
-          <div class="medium primary rounded metro btn"><input type="submit" value="Submit" /></div>
+          <h6>Make this a featured answer (optional)</h6>
+        </li>
+        <li class='field bidding'>
+          <input class="wide text input" id="text1" type="text" placeholder="Enter amount: £00.00" />
+        </li>
+        <li class='bidding'>
+          <div class="medium btn primary metro rounded"><input type="submit" value="Submit" /></div>
         </li>
       </ul>
     </div>
@@ -140,8 +146,10 @@
 
     <div class="navbar" id="nav1">
       <div class='row'>
-        <h2 class="six columns logo"><a href="index.html">Advaestro</a></h2>
-        <ul class="six columns">
+        <div class='six columns alpha'>
+          <a href="index.html"><img src="img/advaestro-nav-logo.png"></a>
+        </div>
+        <ul class="six columns omega">
           <li><a href="#openModal">Log in</a></li>
           <li><a href="#openModal2">Sign up</a></li>
         </ul>
@@ -150,105 +158,125 @@
 
     <div id='search-nav' class='container'>
       <div class='row'>
-        <div class='four columns pill tabs cat-toggle'>
+        <div class='four columns pill tabs cat-toggle alpha'>
+          <p>1. Select your category</p>
           <ul class="tab-nav">
-            <li class="active"><a href="#">Accounting</a></li>
+            <li class="active">
+              <a href="#">Accounting</a>
+            </li>
             <li><a href="#">Law</a></li>
             <li><a href="#">Tax</a></li>
           </ul>
         </div>
-        <div class='row'>
-          <div class='four columns search-field'>
-            <ul>
-              <li class="append field">
-                <input class="wide email input" type="email" placeholder="Search answers">
-                <div class="medium primary btn"><a href="#">Go</a></div>
-              </li>
-            </ul>
-          </div>
-          <div class='three columns push_one ask-question'>
-            <div class="medium metro rounded btn primary"><a href="#openModal3">Post question</a></div>
-          </div>
+        <div class='four columns search-field'>
+          <p>2. Search Advaestro</p>
+          <ul>
+            <li class="append field">
+              <input class="xwide email input" type="email" placeholder="Search answers">
+              <div class="medium primary btn go"><a href="#">Go</a></div>
+            </li>
+          </ul>
+        </div>
+        <div class='one columns or-ask-question'>
+          <p>Or</p>
+        </div>
+        <div class='three columns ask-question omega'>
+          <div class="medium metro rounded btn primary"><a href="#openModal3">Post question</a></div>
         </div>
       </div>
     </div>
 
-    <div class='row'>
-      <div class='nine columns main-content alpha'>
-        <div class='container question asked'>
-          <div class='row'>
-            <div class='four columns'>
-              <h1>Question:</h1>
+    <div class='container dashboard'>
+      <div class='row'>
+
+        <div class='main-content nine columns alpha'>
+
+          <div class='environment dash-head'>
+          <div class='question asked'>
+            <div class='row'>
+              <div class='nine columns'>
+                <h2>Is this a question up to 75 characters long?</h2>
+              </div>
+              <div class='three columns'>
+                <p>Posted: <span>30/04/2013</span></p>
+              </div>
+            <div class='row'>
+              <div class='twelve columns'>
+                <p>Ennui banjo letterpress tumblr magna, cosby sweater swag street art ullamco neutra pour-over. Laboris aliquip iphone incididunt, ethical banh mi et dolore godard neutra sustainable. Pop-up selfies cray irony jean shorts. </p>
+              </div>
             </div>
-          </div>
-          <div class='row'>
-            <div class='six columns'>
-              <h1>Is this a question up to 75 characters long?</h1>
+            <div class='row'>
+              <div class='four columns'>
+                <p>Submitted by <a href="">Fred West</a></p>
+              </div>
             </div>
-            <div class='three columns'>
-              <p><span>27th </span><span>April </span><span>2013</span></p>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='twelve columns'>
-              <p>Ennui banjo letterpress tumblr magna, cosby sweater swag street art ullamco neutra pour-over. Laboris aliquip iphone incididunt, ethical banh mi et dolore godard neutra sustainable. Pop-up selfies cray irony jean shorts. </p>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='three columns'>
-              <p>Submitted by <a href="">Fred West</a></p>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='three columns'>
-              <a href="">Share</a>
-            </div>
-            <div class='three columns'>
-              <div class="medium btn primary metro rounded"><a href="#openModal4">Post answer</a></div>
+            <div class='row'>
+              <div class='two columns'>
+                <div class="medium btn primary metro rounded"><a href="#openModal4">Share</a></div>
+              </div>
+              <div class='two columns'>
+                <div class="medium btn primary metro rounded"><a href="#openModal4">Follow</a></div>
+              </div>
+              <div class='three columns'>
+                <div class="medium btn primary metro rounded"><a href="#openModal4">Post answer</a></div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class='container question answer'>
           <div class='row'>
             <div class='four columns'>
               <h1>Answers:</h1>
             </div>
           </div>
-          <div class='row'>
-            <div id='name' class='three columns'>
-              <h2><a href="">Joe Bloggs</a></h2>
+
+          <div class='question answer'>
+            <div class='row'>
+              <div id='name' class='three columns'>
+                <h2><a href="">Joe Bloggs</a></h2>
+              </div>
+              <div id='company' class='three columns'>
+                <h2><a href="">Accountantd</a></h2>
+              </div>
+              <div class='three columns'>
+                <p><span>27th </span><span>April </span><span>2013</span></p>
+              </div>
             </div>
-            <div id='company' class='three columns'>
-              <h2><a href="">Accountantd</a></h2>
+            <div class='row'>
+              <div class='twelve columns'>
+                <p>Ennui banjo letterpress tumblr magna, cosby sweater swag street art ullamco neutra pour-over. Laboris aliquip iphone incididunt, ethical banh mi et dolore godard neutra sustainable. Pop-up selfies cray irony jean shorts.<br><br>Assumenda farm-to-table excepteur, cupidatat nihil williamsburg elit wes anderson.</p>
+              </div>
             </div>
-            <div class='three columns'>
-              <p><span>27th </span><span>April </span><span>2013</span></p>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='twelve columns'>
-              <p>Ennui banjo letterpress tumblr magna, cosby sweater swag street art ullamco neutra pour-over. Laboris aliquip iphone incididunt, ethical banh mi et dolore godard neutra sustainable. Pop-up selfies cray irony jean shorts.<br><br>Assumenda farm-to-table excepteur, cupidatat nihil williamsburg elit wes anderson.</p>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='three columns'>
-              <a href="">Share</a>
-            </div>
-            <div class='three columns'>
-              <ul>
-                <li><a href=""><i class="icon-menu"></i></a></li>
-                <li><a href=""><i class="icon-menu"></i></a></li>
-              </ul>
+            <div class='row'>
+              <div class='two columns'>
+                <div class="medium btn primary metro rounded"><a href="#openModal4">Share</a></div>
+              </div>
+              <div class='two columns'>
+                <div class="medium btn primary metro rounded"><a href="#openModal4">Follow</a></div>
+              </div>
+              <div class='two columns'>
+                <div class="medium btn primary metro rounded"><a href="#openModal4">Contact</a></div>
+              </div>
+               <div class='two columns'>
+                <p>Vote: </p>
+              </div>
+              <div class='three columns'>
+                <ul>
+                  <li><a href=""><i class="icon-up-dir"></i></a></li>
+                  <li><a href=""><i class="icon-down-dir"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class='row'>
-        <div class='three columns'>
+
+        </div>
+
+        <div class='three columns omega environment dash-head'>
           <h1>Sidebar</h1>
         </div>
+
       </div>
     </div>
 
