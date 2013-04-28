@@ -104,23 +104,56 @@ body {
 
   #nav1 {
     margin-bottom: 0;
+    background: #6097d0;
+    border-bottom: 10px solid #174a82;
+
+    img {
+      margin-top: 9px;
+    }
+
+    a {
+      text-shadow: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background: lighten(#6097d0, 10%);
+    }
   }
 
   #search-nav {
-    height: 50px;
     padding-top: 5px;
 
-    .search-field {
-      text-align: center;
+    .tab-nav {
+      margin-top: -8px;
+    }
+
+    .or-ask-question {
+      margin-top: 45px;
     }
 
     .ask-question {
-      text-align: center;
+      margin-top: 38px;
+    }
+
+    .btn {
+    }
+
+    .go {
+
+      a {
+        padding: 1px 12px;
+      }
+    }
+
+    p {
+      font-weight: bold;
     }
   }
 
   #search-nav.container {
     background: whitesmoke;
+    border-bottom: 5px solid darken(whitesmoke, 10%);
   }
 
   #about {
@@ -185,7 +218,6 @@ body {
 
     h1 {
       font-size: 28px;
-      font-weight: bold;
     }
 
     h2 {
@@ -203,5 +235,36 @@ body {
     h1 {
       font-size: 24px;
     }
+  }
+
+  .dashboard{
+    background: #f3f3f3;
+
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .dash-head {
+      margin-top: 20px;
+    }
+
+  }
+
+  .environment {
+    background: white;
+    margin-bottom: 20px;
+    @include border-radius (5px);
+    @include box-shadow (0px 1px 3px rgba(50, 50, 50, 0.5));
+    padding: 10px;
+  }
+
+  .asked {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 20px;
   }
 }

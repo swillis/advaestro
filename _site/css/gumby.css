@@ -1831,11 +1831,17 @@ body header #search { margin-top: 50px; margin-bottom: 50px; }
 body header #search .btn { background: #174a82; border: 2px solid #174a82; -webkit-transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out; }
 body header #search .btn:hover { background: #1f63ad; border: 2px solid #1f63ad; }
 body header #search a { color: white; }
-body #nav1 { margin-bottom: 0; }
-body #search-nav { height: 50px; padding-top: 5px; }
-body #search-nav .search-field { text-align: center; }
-body #search-nav .ask-question { text-align: center; }
-body #search-nav.container { background: whitesmoke; }
+body #nav1 { margin-bottom: 0; background: #6097d0; border-bottom: 10px solid #174a82; }
+body #nav1 img { margin-top: 5px; margin-bottom: -5px; }
+body #nav1 a { text-shadow: none; font-weight: bold; }
+body #nav1 a:hover { background: #87b1dc; }
+body #search-nav { padding-top: 5px; }
+body #search-nav .tab-nav { margin-top: -8px; }
+body #search-nav .or-ask-question { margin-top: 45px; }
+body #search-nav .ask-question { margin-top: 38px; }
+body #search-nav .go a { padding: 1px 12px; }
+body #search-nav p { font-weight: bold; }
+body #search-nav.container { background: whitesmoke; border-bottom: 5px solid gainsboro; }
 body #about { text-align: center; }
 body #about h2 { margin-top: 25px; margin-bottom: 15px; }
 body #about img { margin-bottom: 25px; }
@@ -1848,7 +1854,13 @@ body footer p { margin: 10px 0px; color: #174a82; }
 body footer a { border-bottom: 1px dotted #174a82; color: #174a82; }
 body .category-list li { display: inline; }
 body .question { text-align: left; }
-body .question h1 { font-size: 28px; font-weight: bold; }
+body .question h1 { font-size: 28px; }
 body .question h2 { font-size: 24px; }
 body .question ul li { display: inline; }
 body .results h1 { font-size: 24px; }
+body .dashboard { background: #f3f3f3; }
+body .dashboard h1 { font-size: 26px; font-weight: bold; }
+body .dashboard h2 { font-size: 24px; }
+body .dashboard .dash-head { margin-top: 20px; }
+body .environment { background: white; margin-bottom: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.5); -moz-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.5); box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.5); padding: 10px; }
+body .asked { border-bottom: 2px solid whitesmoke; padding-bottom: 20px; }
