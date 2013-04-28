@@ -164,6 +164,29 @@ body {
     .btn {
     }
 
+    ul {
+
+      li {
+        padding: 5px;
+        margin: 5px;
+        display: inline;
+        background: #f9f9f9;
+        @include border-radius (5px);
+      }
+
+      li:hover {
+        background: lighten(#f9f9f9, 10%);
+      }
+
+      li:active {
+        background: #174a82;
+
+        a {
+          color: white;
+        }
+      }
+    }
+
     .go {
 
       a {
