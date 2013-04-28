@@ -1845,7 +1845,7 @@ body #search-nav .or-ask-question { margin-top: 45px; }
 body #search-nav .ask-question { margin-top: 38px; }
 body #search-nav .go a { padding: 1px 12px; }
 body #search-nav p { font-weight: bold; }
-body #search-nav.container { background: whitesmoke; border-bottom: 5px solid gainsboro; }
+body #search-nav.container { background: white; border-bottom: 5px solid gainsboro; }
 body #about { text-align: center; }
 body #about h2 { margin-top: 25px; margin-bottom: 15px; }
 body #about img { margin-bottom: 25px; }
