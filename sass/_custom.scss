@@ -56,7 +56,19 @@ body {
 
   h1, h2, h3, h4, h5, p, a  {
     font-family: adelle;
-  }  
+  }
+
+  a {
+    color: #174a82;
+  }
+
+  a:hover {
+    color: lighten(#174a82, 10%)
+  }
+
+  .btn a:hover {
+    color: white;
+  }
 
   header {
     text-align: center;
@@ -266,5 +278,15 @@ body {
   .asked {
     border-bottom: 2px solid #f5f5f5;
     padding-bottom: 20px;
+  }
+
+  .icon-up-dir {
+    color: green;
+    font-size: 40px;
+  }
+
+  .icon-down-dir{
+    color: red;
+    font-size: 40px;
   }
 }

@@ -1822,6 +1822,9 @@ body .video { width: 100%; position: relative; height: 0; padding-bottom: 56.25%
 .close:hover { background: #00d9ff; }
 
 body h1, body h2, body h3, body h4, body h5, body p, body a { font-family: adelle; }
+body a { color: #174a82; }
+body a:hover { color: #1f63ad; }
+body .btn a:hover { color: white; }
 body header { text-align: center; position: relative; background: #6097d0; border-bottom: 10px solid #174a82; }
 body header #navigation { margin-bottom: 50px; }
 body header #navigation li { display: inline; margin: 0px 10px; }
@@ -1864,3 +1867,5 @@ body .dashboard h2 { font-size: 24px; }
 body .dashboard .dash-head { margin-top: 20px; }
 body .environment { background: white; margin-bottom: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.5); -moz-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.5); box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.5); padding: 10px; }
 body .asked { border-bottom: 2px solid whitesmoke; padding-bottom: 20px; }
+body .icon-up-dir { color: green; font-size: 40px; }
+body .icon-down-dir { color: red; font-size: 40px; }
